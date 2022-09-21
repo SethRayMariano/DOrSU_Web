@@ -16,54 +16,75 @@
     <title>Document</title>
 </head>
 
-<body class="min-h-[9000px] bg-white text-white dark:bg-gray-900">
-    <div class="p-2 bg-blue-900 justify-between md:flex md:items-center md:justify-between fixed w-full">
+<body class="bg-white text-white dark:bg-gray-900">
+    <div class="p-2 bg-blue-900 md:flex md:items-center md:justify-between fixed w-full z-40">
 
-        <ul class="sub md:flex md:items-center z-[-1] md:z-auto md:static absolute bg-blue-800 w-full left-0 md:bg-blue-900 md:w-auto md:py-0 py-4 md:pl-0 pl-7 md:opacity-100 opacity-0 top-[-400px] transition-all ease-in duration-300">
+        <ul
+            class="sub md:flex md:items-center md:z-auto md:static absolute bg-blue-800 w-full left-0 md:bg-blue-900 md:w-auto md:py-0 py-4 md:pl-0 pl-7 md:opacity-100 opacity-0 top-[-400px] transition-all ease-in duration-300">
             <li class="px-3 pb-1 h-5 my-5 md:my-0">
-                <a href="" class="peer p-6 text-xl text-white dark:text-black hover:underline duration-300">Home</a>
-            </li>
-            <li class="px-3 pb-1 h-5 my-5 md:my-0">
-                <a href="" class=" p-6 text-xl text-white dark:text-black hover:underline duration-300">About</a>
+                <a href=""
+                    class="p-[10px] text-xl text-white dark:text-black dark:hover:opacity-70 hover:opacity-30 hover:underline duration-300 ">Home</a>
             </li>
             <li class="px-3 pb-1 h-5 my-5 md:my-0">
                 <a href=""
-                    class="p-[10px] text-xl text-white dark:text-black hover:opacity-30 hover:underline duration-300 ">Academic</a>
+                    class="p-[10px] text-xl text-white dark:text-black dark:hover:opacity-70 hover:opacity-30 hover:underline duration-300 ">About</a>
             </li>
             <li class="px-3 pb-1 h-5 my-5 md:my-0">
                 <a href=""
-                    class="p-[10px] text-xl text-white dark:text-black hover:opacity-30 hover:underline duration-300 ">Research</a>
+                    class="p-[10px] text-xl text-white dark:text-black dark:hover:opacity-70 hover:opacity-30 hover:underline duration-300 ">Academic</a>
             </li>
             <li class="px-3 pb-1 h-5 my-5 md:my-0">
                 <a href=""
-                    class="p-[10px] text-xl text-white dark:text-black hover:opacity-30 hover:underline duration-300 ">Students</a>
+                    class="p-[10px] text-xl text-white dark:text-black dark:hover:opacity-70 hover:opacity-30 hover:underline duration-300 ">Research</a>
             </li>
             <li class="px-3 pb-1 h-5 my-5 md:my-0">
                 <a href=""
-                    class="p-[10px] text-xl text-white dark:text-black hover:opacity-30 hover:underline duration-300 ">Resource</a>
+                    class="p-[10px] text-xl text-white dark:text-black dark:hover:opacity-70 hover:opacity-30 hover:underline duration-300 ">Students</a>
             </li>
             <li class="px-3 pb-1 h-5 my-5 md:my-0">
                 <a href=""
-                    class="p-[10px] text-xl text-white dark:text-black hover:opacity-30 hover:underline duration-300 ">Admissions</a>
+                    class="p-[10px] text-xl text-white dark:text-black dark:hover:opacity-70 hover:opacity-30 hover:underline duration-300 ">Resource</a>
             </li>
             <li class="px-3 pb-1 h-5 my-5 md:my-0">
-                <a href="" class="p-[10px] text-xl text-white dark:text-black hover:opacity-30 hover:underline duration-300 ">Grade
+                <a href=""
+                    class="p-[10px] text-xl text-white dark:text-black dark:hover:opacity-70 hover:opacity-30 hover:underline duration-300 ">Admissions</a>
+            </li>
+            <li class="px-3 pb-1 h-5 my-5 md:my-0">
+                <a href=""
+                    class="p-[10px] text-xl text-white dark:text-black dark:hover:opacity-70 hover:opacity-30 hover:underline duration-300 ">Grade
                     Inquiry</a>
             </li>
         </ul>
         <div class="flex justify-between items-center">
             <span></span>
             <div class="flex justify-end">
-                <span class="text-3xl cursor-pointer mx-2 mt-2 dark:text-black">
+                <span class="text-3xl cursor-pointer mx-2 mt-2 dark:text-black dark:hover:opacity-70">
                     <ion-icon name="sunny-outline" onclick="Light(this)"></ion-icon>
                 </span>
-                <span class="text-3xl cursor-pointer mx-2 mt-2 dark:text-black md:hidden block">
+                <span class="text-3xl cursor-pointer mx-2 mt-2 dark:text-black dark:hover:opacity-70 md:hidden block">
                     <ion-icon name="menu" onclick="Menu(this)"></ion-icon>
                 </span>
             </div>
         </div>
     </div>
-    
+    <div class="bg-blue-800 w-full p-8"></div>
+    <div class="mx-5 mb-5 flex">
+        <img class="w-full h-auto object-cover object-top" src="img/pic1.jpg" alt="">
+    </div>
+    <div class="flex bg-white m-5 dark:bg-gray-900">
+        <div class="bg-zinc-800 dark:bg-gray-300 w-[50%]  text-white  box-border z-10 flex flex-col items-center">
+            <div class="flex dark:text-black flex-row ">
+                <div class=" text-2xl font-medium">News and Events</div>
+                <div class="w-0 h-0 my-0 relative border-t-[80px] border-t-transparent border-l-[150px] border-l-zinc-800 border-b-[80px] border-b-transparent dark:bg-gray-300"></div>
+            </div>
+            <div>
+                <div class="  text-2xl font-medium">Follow</div>
+            </div>
+            <div class=" text-2xl font-medium">More</div>
+        </div>
+        <div class="dark:bg-black"></div>
+    </div>
+
 
     <script>
         function Menu(e) {
@@ -77,7 +98,7 @@
             e.name === 'sunny-outline' ? (e.name = "moon-outline", list.classList.add('dark'), list.classList.remove('light')) : (e.name = "sunny-outline", list.classList.add('light'), list.classList.remove('dark'))
         }
     </script>
-    
+
 </body>
 
 </html>
